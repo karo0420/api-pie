@@ -1,0 +1,24 @@
+{
+    "name": "karo0420/api-pie",
+    "description": "Api One Stop Shop",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hamed Soleimanian",
+            "email": "soleimanian.h2o@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Karo0420\\ApiPie\\": "src/"
+        }
+    }
+}
